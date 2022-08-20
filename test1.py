@@ -13,11 +13,6 @@ d = {
     'mail': 'vishwas@mail.com',
     'surname': 'K. Sharma'
 }
-d = {
-    'name': 'vishwas',
-    'mail': 'vishwas@mail.com',
-    'surname': 'K. Sharma'
-}
 
 qury1 = connection['mongotest']
 coll1 = qury1['test']
