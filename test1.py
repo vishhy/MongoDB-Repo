@@ -14,6 +14,6 @@ d = {
     'surname': 'K. Sharma'
 }
 
-qury1 = connection['mongotest']
-coll1 = qury1['test']
-coll1.insert_one(d)
+database = connection['mongotest']   # Mongotest = Database Name
+collection = database['test']   # test = Collection Name. In Sql we've a table for that
+collection.insert_one(d)   # Document under that collection. In Sql we've a record for that
